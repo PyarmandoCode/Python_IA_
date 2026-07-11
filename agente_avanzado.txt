@@ -1,0 +1,26 @@
+USUARIO
+                    |
+                    |
+              "¿Cuántos clientes tengo?"
+                    |
+                    ↓
+
+              AGENTE IA PYTHON
+                    |
+        ┌───────────┼───────────┐
+        ↓           ↓           ↓
+
+    Gemini API   Memoria     Herramientas
+    (Cerebro)    SQLite      (Funciones)
+                    |
+                    ↓
+
+              Base de Datos
+              Clientes
+              Ventas
+              Productos
+
+                    |
+                    ↓
+
+              Respuesta IA
