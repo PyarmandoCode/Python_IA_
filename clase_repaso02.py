@@ -2,8 +2,10 @@
 ANALIZADOR DE SENTIMIENTOS
 -PROCESAMIENTO DE LENGUAJE NATURAL (NLP)
 """
+import math
 
-texto = input("Escriba una Frase:").lower()
+math.pi()
+texto = int(input("Escriba una Frase:").lower())
 posivas = [
     "feliz",
     "genial",

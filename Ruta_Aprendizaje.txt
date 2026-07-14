@@ -1,0 +1,105 @@
+- Fundamentos de Python
+=========================
+Variables
+Tipos de datos
+Operadores
+Entrada y salida (input() y print())
+Conversión de tipos
+Comentarios
+Buenas prácticas (PEP 8)
+- Control de Flujo
+====================
+if, elif, else
+for
+while
+break
+continue
+match (Python 3.10+)
+-Colecciones
+=============
+Listas
+Tuplas
+Diccionarios
+Conjuntos (set)
+Métodos más utilizados
+Comprensiones (List Comprehensions)
+- Funciones
+===================
+Crear funciones
+Parámetros
+Valores de retorno
+Funciones lambda
+*args
+**kwargs
+-Manejo de Archivos
+====================
+Leer archivos TXT
+Escribir archivos
+CSV
+JSON
+-POO
+===============
+Clases
+Objetos
+Constructores
+Herencia
+Polimorfismo
+Encapsulamiento
+-Base de Datos
+================
+SQLite
+CRUD
+Consultas SQL
+Integración con Python
+-Consumo de APIS
+==================
+Requests
+JSON
+APIs REST
+Tokens
+Variables de entorno
+-Introduccion a IA
+=====================
+Qué es IA?
+Machine Learning
+Deep Learning
+IA Generativa
+LLM (Large Language Models)
+Embeddings
+Tokens
+Prompt Engineering
+-PYTHON CON IA
+==================
+NumPy
+Pandas
+Matplotlib
+Scikit-learn
+-IA GENERATIVA
+================
+OpenAI GPT
+Gemini
+Claude
+DeepSeek
+Mistral
+-AGENTES DE IA
+===============
+conversar,
+tomar decisiones,
+consultar bases de datos,
+usar herramientas externas,
+automatizar tareas.
+-Procesamiento de Lenguaje Natural (NLP)
+==========================================
+Clasificación de texto
+Análisis de sentimientos
+Resumen automático
+Traducción
+Extracción de información
+Búsqueda semántica
+-Automatización con IA
+=========================
+Automatizar correos
+Generar reportes
+Leer PDFs
+Procesar archivos Excel
+Clasificar documentos
