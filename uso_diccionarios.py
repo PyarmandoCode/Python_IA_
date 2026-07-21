@@ -32,7 +32,7 @@ else:
     print("La Persona es Menor de edad")    
 """    
     
-    
+"""    
 notas = {
     "Juan":18,
     "Ana":15,
@@ -49,3 +49,32 @@ for alumno,nota in notas.items():
 
 #for _ in range(3):
 
+"""
+#Diccionario Anidado
+empleados  = {
+    1:{
+        "nombre":"Carlos",
+        "edad":50,
+        "sueldo":2500
+    },
+    2:{
+        "nombre":"Ana",
+        "edad":28,
+        "sueldo":3500
+    },
+    3:{
+        "nombre":"Jorge",
+        "edad":60,
+        "sueldo":7500
+    }
+}
+
+#print(empleados[1]["nombre"])
+#Recorrer diccionarios anidadados
+
+for codigo,datos in empleados.items():
+    print(f"Codigo {codigo}")
+    for clave , valor in datos.items():
+        print(clave,":",valor)
+    print("=======================")    
+        
