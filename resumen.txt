@@ -1,0 +1,5 @@
+| Colección                | Permite repetidos             | Mantiene orden     | Acceso por       | Uso principal                           |
+| ------------------------ | ----------------------------- | ------------------ | ---------------- | --------------------------------------- |
+| **Lista (`list`)**       | ✅ Sí                          | ✅ Sí               | Índice           | Almacenar elementos en orden.           |
+| **Diccionario (`dict`)** | Valores: ✅ Sí<br>Claves: ❌ No | ✅ Sí (Python 3.7+) | Clave            | Relacionar información (clave → valor). |
+| **Conjunto (`set`)**     | ❌ No                          | ❌ No               | No tiene índices | Eliminar duplicados y comparar datos.   |
