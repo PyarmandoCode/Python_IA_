@@ -1,28 +1,32 @@
 """
 """
 class Auto:
-    #Constructor
-    def __init__(self,marca,color,asientos):
-        self.marca=marca
-        self.color=color
-        self.asientos=asientos
-        self.velocidad=0
-        self.encencido=False
-    
+
+    # Constructor
+    def __init__(self, marca, color, asientos, velocidad, encendido):
+        self.marca = marca
+        self.color = color
+        self.asientos = asientos
+        self.velocidad = velocidad
+        self.encendido = encendido
+
     def encender(self):
-        self.encencido=True
-        print(f"El Auto, {self.marca},esta encendido")    
-    
+        self.encendido = True
+        print(f"El Auto {self.marca} está encendido")
+
+
     def apagar(self):
-        self.encencido=False    
-        print(f"El Auto, {self.marca},esta apagado")    
+        if self.velocidad == 0:
+            self.encendido = False
+            print(f"El Auto {self.marca} está apagado")
+        else:
+            print(f"El Auto {self.marca} no puedes apagarlo porque está en movimiento")
 
 
-auto1 = Auto("Toyoya","Negro",4)
-auto2 = Auto("Datsun","Amarillo",4)
-auto3 = Auto("Volswagen","Blanco",2)
+auto1 = Auto("Toyota","Negro",4,0,False)
+auto2 = Auto("Datsun","Amarillo",4,0,False)
+auto3 = Auto("Volkswagen","Blanco",2,4,True)
+auto4 = Auto("Chevrolet","Gris",5,2,True)
 
-#print(auto3.asientos)
-#print(auto3.__dict__)
-#print(auto2)
-auto2.apagar()
+
+auto4.apagar()
