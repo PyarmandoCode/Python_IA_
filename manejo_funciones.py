@@ -59,8 +59,13 @@ colores = ["Rojo","Azul","Verde","Negro"]
 Contraseña Aleatoria
 """
 caracteres = string.ascii_letters + string.digits
-print(caracteres)
+#print(caracteres)
 #password = ""
 #for i in range(10):
 #    password += random.choice(caracteres)
 #print(password)    
+
+
+numeros = [1,2,3,4,5]
+random.shuffle(numeros)
+print(numeros)
