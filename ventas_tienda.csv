@@ -1,0 +1,22 @@
+id_venta,fecha,vendedor,ciudad,categoria,producto,cantidad,precio_unitario,metodo_pago,estado
+V001,2026-07-01,Ana,Lima,Laptops,Laptop Lenovo,2,2500,Tarjeta,Entregado
+V002,2026-07-02,Carlos,Arequipa,Accesorios,Mouse Logitech,5,85,Yape,Entregado
+V003,2026-07-03,Lucia,Lima,Monitores,Monitor Samsung 24,3,780,Transferencia,Pendiente
+V004,2026-07-04,Jose,Cusco,Accesorios,Teclado Redragon,4,160,Efectivo,Entregado
+V005,2026-07-05,Ana,Lima,Impresoras,Impresora Epson,1,950,Tarjeta,Cancelado
+V006,2026-07-06,Miguel,Trujillo,Laptops,Laptop HP,2,3100,Transferencia,Entregado
+V007,2026-07-07,Carlos,Arequipa,Monitores,Monitor LG 27,2,1100,Yape,Pendiente
+V008,2026-07-08,Lucia,Lima,Accesorios,Audifonos HyperX,6,220,Tarjeta,Entregado
+V009,2026-07-09,Jose,Cusco,Laptops,Laptop Asus,1,3800,Efectivo,Entregado
+V010,2026-07-10,Ana,Lima,Accesorios,Webcam Logitech,3,290,Yape,Pendiente
+V011,2026-07-11,Miguel,Trujillo,Impresoras,Impresora Brother,2,1200,Transferencia,Entregado
+V012,2026-07-12,Carlos,Arequipa,Accesorios,Mouse Gamer,8,120,Tarjeta,Entregado
+V013,2026-07-13,Lucia,Lima,Laptops,Laptop Acer,1,2800,Transferencia,Pendiente
+V014,2026-07-14,Jose,Cusco,Monitores,Monitor Xiaomi 27,2,1250,Efectivo,Cancelado
+V015,2026-07-15,Ana,Lima,Accesorios,Memoria USB 64GB,10,45,Yape,Entregado
+V016,2026-07-16,Miguel,Trujillo,Monitores,Monitor Dell 24,3,890,Tarjeta,Pendiente
+V017,2026-07-17,Carlos,Arequipa,Laptops,Laptop Dell,2,3400,Transferencia,Entregado
+V018,2026-07-18,Lucia,Lima,Accesorios,Teclado Inalambrico,5,135,Yape,Entregado
+V019,2026-07-19,Jose,Cusco,Impresoras,Impresora Canon,1,880,Efectivo,Pendiente
+V020,2026-07-20,Ana,Lima,Monitores,Monitor Samsung 27,2,1350,Tarjeta,Entregado
+
