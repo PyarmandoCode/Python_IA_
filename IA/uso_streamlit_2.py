@@ -1,4 +1,15 @@
 import streamlit as st
+import sqlite3
+import psycopg
+
+conexion = psycopg.connect(
+    host="",
+    dbname="",
+    user="",
+    password="",
+    port=5432+
+    
+)
 
 #nombre = input("Ingrese el nombre de la persona:")
 #edad= input("Ingrese la edad de la persona:")
