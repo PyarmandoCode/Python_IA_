@@ -5,7 +5,7 @@ try:
         host="localhost",
         database="python_ia",
         user="postgres",
-        password="",
+        password="Rioazulq12",
         port="5432"
     )
     print("Conexion exitosa a PostgresSQL")
@@ -15,7 +15,11 @@ try:
     registros = cursor.fetchall()
 
     for fila in registros:
-        print(fila)
+        print(f"ID:{fila[0]}")
+        print(f"Producto:{fila[1]}")
+        print(f"Precio:{fila[2]}")
+        print(f"Stock:{fila[3]}")
+        print("==================")
 
     cursor.close()
     conexion.close()    
